@@ -3,8 +3,8 @@ import sys
 
 
 def main(*args):
-    access_key = "AKIAJX7SJ3BXPEGL2YQQ"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
     client = boto3.client('emr', aws_access_key_id=access_key,
                                  aws_secret_access_key=secret_key, region_name='us-east-1')
     print "start"
